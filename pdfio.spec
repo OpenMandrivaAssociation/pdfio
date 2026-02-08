@@ -11,6 +11,8 @@ URL:		https://github.com/michaelrsweet/pdfio
 License:	Apache-2.0
 Group:		System/Libraries
 BuildRequires:	autoconf automake slibtool libtool-base make
+BuildRequires:	pkgconfig(zlib)
+BuildRequires:	pkgconfig(libpng)
 
 %description
 PDFio is a simple C library for reading and writing PDF files. The primary
