@@ -3,7 +3,7 @@
 %define devname %mklibname pdfio -d
 
 Name:		pdfio
-Version:	1.6.1
+Version:	1.6.4
 Release:	1
 Source0:	https://github.com/michaelrsweet/pdfio/releases/download/v%{version}/pdfio-%{version}.tar.gz
 Summary:	Simple C library for reading and writing PDF files
